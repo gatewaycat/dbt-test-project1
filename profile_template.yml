@@ -1,0 +1,4 @@
+fixed:
+  target: dev
+  type: duckdb
+  path: 'dbt_test_project1.duckdb'

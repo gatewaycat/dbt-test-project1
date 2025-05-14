@@ -1,0 +1,3 @@
+packages:
+  - git: https://github.com/gatewaycat/dbt-utils
+    warn-unpinned: false

@@ -1,0 +1,10 @@
+name: 'dbt_test_project1'
+version: '1.0.0'
+config-version: 2
+
+profile: 'dbt_test_project1'
+
+clean-targets:
+  - dbt_packages
+  - logs
+  - target
