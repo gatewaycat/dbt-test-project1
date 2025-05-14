@@ -1,4 +1,0 @@
-packages:
-  - git: https://github.com/gatewaycat/dbt-utils
-    revision: c4f61c697aa2bf819a4bad5110a18c3c81d82772
-sha1_hash: 968141c629fabab258752b75d20f64a48bbb5595

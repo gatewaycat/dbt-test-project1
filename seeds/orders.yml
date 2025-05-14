@@ -1,0 +1,12 @@
+version: 2
+
+seeds:
+  - name: orders
+    columns:
+      - name: order_id
+      - name: customer_id
+      - name: customer_name
+        tests:
+          - dbt_utils.functional_dependency:
+              depends_on:
+                - customer_id
